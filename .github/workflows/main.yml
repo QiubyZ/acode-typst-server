@@ -17,7 +17,7 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: v1
-          name: Acode Golang Language Server
+          name: Typst Language Server
           files: ./dist.zip
           draft: false
           prerelease: false

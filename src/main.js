@@ -1,6 +1,8 @@
 
 import "./mode-typst"
 import plugin from "../plugin.json";
+import miniIcon from "./icon.png"
+
 const Url = acode.require('url');
 let AppSettings = acode.require("settings");
 
@@ -26,10 +28,10 @@ class AcodePlugin {
     try {
       this.#style = <style
         textContent={
-          `.file_type_typst::before{
+          `.file_type_typ::before{
           display: inline-block;
           content: '';
-          background-image: url(${plugin.icon});
+          background-image: url(${miniIcon});
           background-size: contain;
           background-repeat: no-repeat;
           height: 1em;
