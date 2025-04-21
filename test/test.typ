@@ -4,5 +4,5 @@
 #let name(params) = params + 10
 = Test Sequence 
 tes #name(10) kapan kita makan?
-
+kapan nasi
 $ Psi $
